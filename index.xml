@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fletcher&#39;s IoT Journey</title>
-    <link>https://iot.fskelly.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Fletcher&#39;s IoT Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://iot.fskelly.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Shelly 1 Lamps</title>
-      <link>https://iot.fskelly.com/post/shelly-1-lamps/</link>
+      <link>http://localhost:1313/post/shelly-1-lamps/</link>
       <pubDate>Tue, 05 Jan 2021 09:10:57 +0200</pubDate>
       
-      <guid>https://iot.fskelly.com/post/shelly-1-lamps/</guid>
+      <guid>http://localhost:1313/post/shelly-1-lamps/</guid>
       <description>Use Case I had been using a WiFi bulb with the lamps to control the lighting, this was working very well.</description>
     </item>
     
     <item>
       <title>Place Holder</title>
-      <link>https://iot.fskelly.com/post/place-holder/</link>
+      <link>http://localhost:1313/post/place-holder/</link>
       <pubDate>Tue, 05 Jan 2021 07:19:07 +0200</pubDate>
       
-      <guid>https://iot.fskelly.com/post/place-holder/</guid>
+      <guid>http://localhost:1313/post/place-holder/</guid>
       <description>Simply placeholder, more to come. :)</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://iot.fskelly.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://iot.fskelly.com/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Who Am I? Just a general tinkerer and currently playing with Home Assistant, Node-Red and ESPHome.</description>
     </item>
     

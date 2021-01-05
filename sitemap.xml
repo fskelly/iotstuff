@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://iot.fskelly.com/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2021-01-05T09:10:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/post/shelly-1-lamps/</loc>
+    <loc>http://localhost:1313/post/shelly-1-lamps/</loc>
     <lastmod>2021-01-05T09:10:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/tags/shelly1/</loc>
+    <loc>http://localhost:1313/tags/shelly1/</loc>
     <lastmod>2021-01-05T09:10:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2021-01-05T09:10:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/tags/zwave/</loc>
+    <loc>http://localhost:1313/tags/zwave/</loc>
     <lastmod>2021-01-05T09:10:57+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/tags/1st/</loc>
+    <loc>http://localhost:1313/tags/1st/</loc>
     <lastmod>2021-01-05T07:19:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/tags/iot/</loc>
+    <loc>http://localhost:1313/tags/iot/</loc>
     <lastmod>2021-01-05T07:19:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/post/place-holder/</loc>
+    <loc>http://localhost:1313/post/place-holder/</loc>
     <lastmod>2021-01-05T07:19:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
   
 </urlset>

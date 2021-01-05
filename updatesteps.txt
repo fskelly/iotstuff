@@ -1,6 +1,9 @@
 export content to public folder
 hugo -d public/
 
+change to output folder
+cd public/
+
 Add new files
 git add --all
 
@@ -8,4 +11,4 @@ git commit
 git commit -m "<some change message>"
 
 push changes
-$ git push -f origin gh-pages
+git push -f origin gh-pages

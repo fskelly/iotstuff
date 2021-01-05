@@ -1,0 +1,11 @@
+export content to public folder
+hugo -d public/
+
+Add new files
+git add --all
+
+git commit
+git commit -m "<some change message>"
+
+push changes
+$ git push -f origin gh-pages

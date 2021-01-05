@@ -3,42 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fskelly.github.io/iotstuff/tags/1st/</loc>
+    <loc>http://localhost:1313/iotstuff/post/</loc>
+    <lastmod>2021-01-05T09:10:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/iotstuff/post/shelly-1-lamps/</loc>
+    <lastmod>2021-01-05T09:10:57+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/iotstuff/tags/1st/</loc>
     <lastmod>2021-01-05T07:19:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fskelly.github.io/iotstuff/tags/iot/</loc>
+    <loc>http://localhost:1313/iotstuff/tags/iot/</loc>
     <lastmod>2021-01-05T07:19:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fskelly.github.io/iotstuff/post/place-holder/</loc>
+    <loc>http://localhost:1313/iotstuff/post/place-holder/</loc>
     <lastmod>2021-01-05T07:19:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fskelly.github.io/iotstuff/post/</loc>
+    <loc>http://localhost:1313/iotstuff/tags/</loc>
     <lastmod>2021-01-05T07:19:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fskelly.github.io/iotstuff/tags/</loc>
-    <lastmod>2021-01-05T07:19:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fskelly.github.io/iotstuff/about/</loc>
+    <loc>http://localhost:1313/iotstuff/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fskelly.github.io/iotstuff/</loc>
+    <loc>http://localhost:1313/iotstuff/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fskelly.github.io/iotstuff/categories/</loc>
+    <loc>http://localhost:1313/iotstuff/categories/</loc>
   </url>
   
 </urlset>

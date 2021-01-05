@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Fletcher&#39;s IoT Journey</title>
+    <link>https://fskelly.github.io/iotstuff/tags/</link>
+    <description>Recent content in Tags on Fletcher&#39;s IoT Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://fskelly.github.io/iotstuff/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

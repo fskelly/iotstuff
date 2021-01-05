@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1st on Fletcher&#39;s IoT Journey</title>
-    <link>https://fskelly.github.io/iotstuff/tags/1st/</link>
+    <link>https://iot.fskelly.com/tags/1st/</link>
     <description>Recent content in 1st on Fletcher&#39;s IoT Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Jan 2021 07:19:07 +0200</lastBuildDate>
     
-	<atom:link href="https://fskelly.github.io/iotstuff/tags/1st/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iot.fskelly.com/tags/1st/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Place Holder</title>
-      <link>https://fskelly.github.io/iotstuff/post/place-holder/</link>
+      <link>https://iot.fskelly.com/post/place-holder/</link>
       <pubDate>Tue, 05 Jan 2021 07:19:07 +0200</pubDate>
       
-      <guid>https://fskelly.github.io/iotstuff/post/place-holder/</guid>
+      <guid>https://iot.fskelly.com/post/place-holder/</guid>
       <description>Simply placeholder, more to come. :)</description>
     </item>
     

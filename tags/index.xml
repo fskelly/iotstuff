@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fletcher&#39;s IoT Journey</title>
-    <link>https://fskelly.github.io/iotstuff/tags/</link>
+    <link>https://iot.fskelly.com/tags/</link>
     <description>Recent content in Tags on Fletcher&#39;s IoT Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Jan 2021 09:10:57 +0200</lastBuildDate>
     
-	<atom:link href="https://fskelly.github.io/iotstuff/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iot.fskelly.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>shelly1</title>
-      <link>https://fskelly.github.io/iotstuff/tags/shelly1/</link>
+      <link>https://iot.fskelly.com/tags/shelly1/</link>
       <pubDate>Tue, 05 Jan 2021 09:10:57 +0200</pubDate>
       
-      <guid>https://fskelly.github.io/iotstuff/tags/shelly1/</guid>
+      <guid>https://iot.fskelly.com/tags/shelly1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>zwave</title>
-      <link>https://fskelly.github.io/iotstuff/tags/zwave/</link>
+      <link>https://iot.fskelly.com/tags/zwave/</link>
       <pubDate>Tue, 05 Jan 2021 09:10:57 +0200</pubDate>
       
-      <guid>https://fskelly.github.io/iotstuff/tags/zwave/</guid>
+      <guid>https://iot.fskelly.com/tags/zwave/</guid>
       <description></description>
     </item>
     
     <item>
       <title>1st</title>
-      <link>https://fskelly.github.io/iotstuff/tags/1st/</link>
+      <link>https://iot.fskelly.com/tags/1st/</link>
       <pubDate>Tue, 05 Jan 2021 07:19:07 +0200</pubDate>
       
-      <guid>https://fskelly.github.io/iotstuff/tags/1st/</guid>
+      <guid>https://iot.fskelly.com/tags/1st/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iot</title>
-      <link>https://fskelly.github.io/iotstuff/tags/iot/</link>
+      <link>https://iot.fskelly.com/tags/iot/</link>
       <pubDate>Tue, 05 Jan 2021 07:19:07 +0200</pubDate>
       
-      <guid>https://fskelly.github.io/iotstuff/tags/iot/</guid>
+      <guid>https://iot.fskelly.com/tags/iot/</guid>
       <description></description>
     </item>
     

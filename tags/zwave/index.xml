@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zwave on Fletcher&#39;s IoT Journey</title>
-    <link>http://localhost:1313/tags/zwave/</link>
-    <description>Recent content in zwave on Fletcher&#39;s IoT Journey</description>
+    <title>zwave on Fletcher&#39;s IoT and Home Automation Journey</title>
+    <link>https://iot.fskelly.com/tags/zwave/</link>
+    <description>Recent content in zwave on Fletcher&#39;s IoT and Home Automation Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Jan 2021 09:10:57 +0200</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/zwave/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iot.fskelly.com/tags/zwave/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Shelly 1 Lamps</title>
-      <link>http://localhost:1313/post/shelly-1-lamps/</link>
+      <link>https://iot.fskelly.com/post/shelly-1-lamps/</link>
       <pubDate>Tue, 05 Jan 2021 09:10:57 +0200</pubDate>
       
-      <guid>http://localhost:1313/post/shelly-1-lamps/</guid>
+      <guid>https://iot.fskelly.com/post/shelly-1-lamps/</guid>
       <description>Use Case I had been using a WiFi bulb with the lamps to control the lighting, this was working very well.</description>
     </item>
     

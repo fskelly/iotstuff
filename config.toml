@@ -1,13 +1,13 @@
-baseURL = "https://fskelly.github.io/iotstuff/"
+baseURL = "https://iot.fskelly.com/"
 languageCode = "en-us"
-title = "Fletcher's IoT Journey"
+title = "Fletcher's IoT and Home Automation Journey"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
-publishDir = "docs"
+publishDir = "public"
 
 # Syntax highlighting
 pygmentsUseClasses = true
@@ -38,7 +38,7 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
-title = "Linkedin"
+title = "LinkedIn"
 url = "https://www.linkedin.com/in/fletcherkelly/"
 
 [[params.socialIcons]]

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Fletcher Kelly | Sonoff Flashing Tasmota </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Just a simple home automation tinkerer">
+    
+    <link rel="stylesheet"
+          href="https://iot.fskelly.com/css/style.min.ed3fda574ded94b7018b8e861c2950c97482e60570e07f5233ac963886f44ded.css"
+          integrity="sha256-7T/aV03tlLcBi46GHClQyXSC5gVw4H9SM6yWOIb0Te0="
+          crossorigin="anonymous"
+          type="text/css">
+    
+    <link rel="stylesheet"
+        href="https://iot.fskelly.com/css/markupHighlight.min.9755453ffb7bc4cd220f86ebb5922107b49f193cc62fc17e9785d27b33a8bf5b.css"
+        integrity="sha256-l1VFP/t7xM0iD4brtZIhB7SfGTzGL8F&#43;l4XSezOov1s="
+        crossorigin="anonymous"
+        type="text/css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="https://iot.fskelly.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://iot.fskelly.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://iot.fskelly.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://iot.fskelly.com/favicons/favicon-16x16.png">
+
+    <link rel="canonical" href="https://iot.fskelly.com/post/2018/sonoff-flashing-tasmota/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="https://iot.fskelly.com/js/anatole-header.min.d8599ee07b7d3f11bafbac30657ccc591e8d7fd36a9f580cd4c09e24e0e4a971.js"
+            integrity="sha256-2Fme4Ht9PxG6&#43;6wwZXzMWR6Nf9Nqn1gM1MCeJODkqXE="
+            crossorigin="anonymous"></script>
+
+
+    
+        
+        
+        <script type="text/javascript"
+                src="https://iot.fskelly.com/js/anatole-theme-switcher.min.e289e9ebb2a4e7a7f895859c8a2b0da2de1ec73f22cea58d8475aa0597023837.js"
+                integrity="sha256-4onp67Kk56f4lYWciisNot4exz8izqWNhHWqBZcCODc="
+                crossorigin="anonymous"></script>
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sonoff Flashing Tasmota"/>
+<meta name="twitter:description" content="So, there are a ton of useful guides out on the internet and YouTube on how to do this as they are really detailed, for example, I was using this one by DrZzs and this is a great tutorial and this post this my &ldquo;issues&rdquo; and troubleshooting would not have been possible without the great tools mentioned by DrZzs, such as Termite and of course the amazing Tasmota firmware by Theo."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown ">
+    <div class="logo-title">
+        <div class="title">
+            <img src="https://iot.fskelly.com/images/profilePic1.jpg" alt="profile picture">
+            <h3 title=""><a href="/">I&#39;m Fletcher Kelly</a></h3>
+            <div class="description">
+                <p>Just a simple home automation tinkerer</p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="https://www.linkedin.com/in/fletcherkelly/" rel="me" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://github.com/fskelly/" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="mailto:fletcher_kelly@outlook.com" rel="me" aria-label="e-mail">
+                    <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Fletcher Kelly  2021 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top  animated fadeInDown ">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/post/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="/about/"
+                        
+                   title="">About</a></li>
+        
+            
+            <li><a 
+                   href="/tags/"
+                        
+                   title="">Tags</a></li>
+        
+        
+        
+            <li class="theme-switch-item">
+                <a class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post  animated fadeInDown ">
+        <div class="post-content">
+            <div class="post-title">
+                <h3>Sonoff Flashing Tasmota</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date"> Sun, Aug 12, 2018 
+                                           </span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">3-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>So, there are a ton of useful guides out on the internet and YouTube on how to do this as they are really detailed, for example, I was using this <a href="https://www.youtube.com/watch?v=KMiP9Ku71To">one</a> by <a href="https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng">DrZzs</a> and this is a great tutorial and this post this my &ldquo;issues&rdquo; and troubleshooting would not have been possible without the great tools mentioned by <a href="https://www.youtube.com/channel/UC7G4tLa4Kt6A9e3hJ-HO8ng">DrZzs</a>, such as <a href="https://www.compuphase.com/software_termite.htm">Termite</a> and of course the amazing <a href="https://tasmota.github.io/docs/">Tasmota firmware by Theo</a>.</p>
+<p>So I was carefully following the process of using the FTDI adapter and then selecting the correct firmware, sonoff.bin from the repository and I was able to successfully flash the firmware onto my Sonoff Basic and &ldquo;backlog&rdquo; the required settings, I was feeling pretty good. So now it was time to start playing and connecting my device to my wireless network. So, 4 button presses and wait for a new WiFi network to appear so that you can connect and make the required changes on the web interface. So after around 2 minutes of waiting and nothing appearing, a simply power cycle might resolve this issue. I followed this process a few times in the hopes that the &ldquo;glitch&rdquo; would go away. No such luck, <strong>TROUBLESHOTING TIME</strong>.</p>
+<h2 id="__troubleshooting__"><strong>Troubleshooting</strong></h2>
+<p>So thanks to <a href="https://www.compuphase.com/software_termite.htm">Termite</a> this was made a lot, simply open the software and start following what is going on at a serial level, so I start following the messages and it tries to connect to the network and fails and when it fails, it still does not create a network. I even think hey maybe it is my hidden SSID and try to get the Sonoff to connect to my mobile hotspot, no joy. So far,</p>
+<p>Device flashed
+Device does not create the required WiFi network for configuration
+Device does not connect to hidden SSID
+Device does not connect to shown SSID</p>
+<p>So enter our dear friend, <a href="www.google.com">Uncle Google</a> and I start searching and I came across an entry of the Github page for <a href="https://github.com/arendst/Sonoff-Tasmota">Tasmota</a> and someone mentions that flashing to the minimal firmware can help. So I find the required file and flash it onto Sonoff Basic as below and it magically works, so for the troubleshooting this has helped as I now know that my flashing process and understanding of the settings with Termite is correct.</p>
+<p>So now that I have a working Sonoff Tasmota interface, try to perform in inline upgrade to the Sonoff.bin firmware and the same issue occurs as before. So what now? More searching and I come across a sonoff-classic.bin, slightly smaller in size and I follow the process I know to be working and it starts working. I am busy investigating the issue with the sonoff.bin file with my Sonoff Basic.</p>
+<p>So, if you run into a strange issue, like me, this might just be a hardware issue. Remember there is a sonoff-classic.bin, with some limitations.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
+                
+                <span class="separator"><a class="tag" href="/tags/sonoff/">sonoff</a><a class="tag" href="/tags/tasmota/">tasmota</a></span>
+
+            </div>
+        </div>
+
+        
+            
+            
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="https://iot.fskelly.com/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js"
+        integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="https://iot.fskelly.com/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js"
+        integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="https://iot.fskelly.com/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js"
+        integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/post/shelly-1-lamps/</loc>
+    <loc>https://iot.fskelly.com/post/2021/shelly-1-lamps/</loc>
     <lastmod>2021-01-05T09:10:57+02:00</lastmod>
   </url>
   
@@ -28,21 +28,6 @@
   </url>
   
   <url>
-    <loc>https://iot.fskelly.com/tags/1st/</loc>
-    <lastmod>2021-01-05T07:19:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.fskelly.com/tags/iot/</loc>
-    <lastmod>2021-01-05T07:19:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://iot.fskelly.com/post/place-holder/</loc>
-    <lastmod>2021-01-05T07:19:07+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://iot.fskelly.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
@@ -50,6 +35,21 @@
   <url>
     <loc>https://iot.fskelly.com/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.fskelly.com/tags/sonoff/</loc>
+    <lastmod>2018-08-12T13:04:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.fskelly.com/post/2018/sonoff-flashing-tasmota/</loc>
+    <lastmod>2018-08-12T13:04:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iot.fskelly.com/tags/tasmota/</loc>
+    <lastmod>2018-08-12T13:04:05+02:00</lastmod>
   </url>
   
   <url>

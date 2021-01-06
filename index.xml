@@ -13,20 +13,11 @@
     
     <item>
       <title>Shelly 1 Lamps</title>
-      <link>https://iot.fskelly.com/post/shelly-1-lamps/</link>
+      <link>https://iot.fskelly.com/post/2021/shelly-1-lamps/</link>
       <pubDate>Tue, 05 Jan 2021 09:10:57 +0200</pubDate>
       
-      <guid>https://iot.fskelly.com/post/shelly-1-lamps/</guid>
+      <guid>https://iot.fskelly.com/post/2021/shelly-1-lamps/</guid>
       <description>Use Case I had been using a WiFi bulb with the lamps to control the lighting, this was working very well.</description>
-    </item>
-    
-    <item>
-      <title>Place Holder</title>
-      <link>https://iot.fskelly.com/post/place-holder/</link>
-      <pubDate>Tue, 05 Jan 2021 07:19:07 +0200</pubDate>
-      
-      <guid>https://iot.fskelly.com/post/place-holder/</guid>
-      <description>Simply placeholder, more to come. :)</description>
     </item>
     
     <item>
@@ -36,6 +27,15 @@
       
       <guid>https://iot.fskelly.com/about/</guid>
       <description>Who Am I? Just a general tinkerer and currently playing with Home Assistant, Node-Red and ESPHome.</description>
+    </item>
+    
+    <item>
+      <title>Sonoff Flashing Tasmota</title>
+      <link>https://iot.fskelly.com/post/2018/sonoff-flashing-tasmota/</link>
+      <pubDate>Sun, 12 Aug 2018 13:04:05 +0200</pubDate>
+      
+      <guid>https://iot.fskelly.com/post/2018/sonoff-flashing-tasmota/</guid>
+      <description>So, there are a ton of useful guides out on the internet and YouTube on how to do this as they are really detailed, for example, I was using this one by DrZzs and this is a great tutorial and this post this my &amp;ldquo;issues&amp;rdquo; and troubleshooting would not have been possible without the great tools mentioned by DrZzs, such as Termite and of course the amazing Tasmota firmware by Theo.</description>
     </item>
     
   </channel>

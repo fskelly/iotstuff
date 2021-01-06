@@ -2,3 +2,6 @@
 /themes/
 /public/
 /themes/
+/docs
+**/docs/**
+/public
